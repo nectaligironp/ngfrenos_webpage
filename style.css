@@ -11,6 +11,7 @@ body {
 .menu-bar {
   background-color: rgb(0, 0, 0);
   text-align: center;
+  position: fixed;
 }
 
 .menu-bar ul {
@@ -24,7 +25,7 @@ body {
   width: 180px;
   margin: 10px;
   padding: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .menu-bar ul li a {
@@ -33,7 +34,107 @@ body {
 }
 
 .imglogo {
-  width: 8%;
-  height: 8%;
-  margin: 5px 150px 5px 5px;
+  width: 7%;
+  height: 7%;
+  margin: 5px 150px 5px 7px;
+}
+
+.menu-bar ul li:hover {
+  background: rgb(100, 100, 100);
+  border-radius: 5px;
+}
+
+.sub-menu1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+#principal {
+  width: 100%;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.sub-menu2 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu2 {
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  margin-top: 15;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu2 ul {
+  display: block;
+  margin: 0px;
+  text-align: left;
+}
+
+#first-title {
+  text-align: center;
+  font-size: 60px;
+  font-family: Anton, Arial, sans-serif;
+}
+
+#companyintro {
+  font-family: Arial;
+  font-size: 35px;
+  margin-top: 10px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.marcas {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: inline-flexbox;
+  text-align: center;
+}
+
+#lucasoillogopng {
+  width: 250px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+#peakautologopng {
+  width: 250px;
+  position: relative;
+  top: -50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#knlogopng {
+  width: 250px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+#akebonologopng {
+  width: 250px;
+}
+
+#berrymanlogopng {
+  width: 250px;
+  margin-top: 75px;
+}
+
+.marcas ul li {
+  display: inline-flexbox;
 }
