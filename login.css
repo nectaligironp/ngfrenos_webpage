@@ -1,0 +1,20 @@
+.container{
+    background: url(./resources/warehouse3.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 5rem;
+    padding:0px 0px 0px 0px;
+    margin: 0.5em 0px 0px 0px;
+}
+
+.logisticHeader{
+    text-align: center;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 3rem;
+}
